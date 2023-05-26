@@ -41,7 +41,7 @@ const data = [
 	},
 ];
 
-const gridbox = () => {
+const TrackingDashboardPage = () => {
 	return (
 		<div className="bg-[rgb(14,19,34)] sm:flex justify-center items-center min-h-screen">
 			<div className="grid sm:grid-cols-4 gap-4 max-w-5xl mx-auto m-0 px-8 py-20 cursor-pointer duration-300">
@@ -95,4 +95,4 @@ const gridbox = () => {
 	);
 };
 
-export default gridbox;
+export default TrackingDashboardPage;

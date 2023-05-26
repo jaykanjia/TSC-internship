@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-const gridBox2 = () => {
+const NewsHomePage = () => {
 	return (
 		<div className="bg-[rgb(254,253,250)]">
 			<div className="sm:gridBox2 flex flex-col gap-8 sm:grid max-w-5xl mx-auto py-10 px-4 min-h-screen">
@@ -178,4 +178,4 @@ const gridBox2 = () => {
 	);
 };
 
-export default gridBox2;
+export default NewsHomePage;

@@ -15,6 +15,11 @@ export default function Home() {
 			linkName: "NewsHomePage",
 			link: "/newsHomePage",
 		},
+		{
+			title: "Day-4",
+			linkName: "ProductCard",
+			link: "/productCard",
+		},
 	];
 	return (
 		<main className="min-h-screen grid place-items-center">
