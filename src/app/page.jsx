@@ -10,6 +10,11 @@ export default function Home() {
 			linkName: "TrackingDashboard",
 			link: "/trackingDashboard",
 		},
+		{
+			title: "Day-3",
+			linkName: "NewsHomePage",
+			link: "/newsHomePage",
+		},
 	];
 	return (
 		<main className="min-h-screen grid place-items-center">
