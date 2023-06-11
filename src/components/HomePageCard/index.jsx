@@ -4,7 +4,7 @@ import Image from "next/image";
 const HomePageCard = ({ data }) => {
 	return (
 		<div className="group z-0 bg-indigo-950  h-full rounded-3xl relative overflow-hidden duration-300">
-			<div className="absolute top-[500px] w-full h-full -z-10 group-hover:top-0 group-hover:bg-indigo-700 duration-300 ">
+			<div className="absolute top-[500px] w-full h-full -z-10 group-hover:top-0 group-hover:bg-indigo-900 duration-300 ">
 				{/* <Image
 					className="object-cover rounded-3xl"
 					src={data.thumbnailUrl}

@@ -35,7 +35,7 @@ const ColorPicker = ({ colors }) => {
 					className={`w-12 h-12 rounded-full flex justify-center shadow-md items-center`}
 					style={{ backgroundColor: currentColor }}
 				>
-					<span className="block w-2 h-2 bg-black rounded-full"></span>
+					<span className="block w-[6px] h-[6px] bg-black rounded-full"></span>
 				</div>
 			</div>
 			{/* color oprions */}

@@ -1,0 +1,20 @@
+.bgBlur {
+	@apply bg-[rgba(0,0,0,0.4)];
+	backdrop-filter: blur(24px);
+}
+
+.animateZoom {
+	animation: zoom 0.5s ease-out;
+}
+
+@keyframes zoom {
+	0% {
+		scale: 0%;
+	}
+	60% {
+		scale: 110%;
+	}
+	100% {
+		scale: 100%;
+	}
+}
