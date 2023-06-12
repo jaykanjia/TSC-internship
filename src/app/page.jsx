@@ -58,6 +58,13 @@ export default function Home() {
 			thumbnailUrl: "/images/day-5.webp",
 			date: "10/6/2023",
 		},
+		{
+			title: "task-9",
+			linkName: "QR Generator",
+			link: "/qrgenerator",
+			thumbnailUrl: "/images/day-5.webp",
+			date: "12/6/2023",
+		},
 	];
 	return (
 		<main className="min-h-screen bg-[rgb(14,19,34)] font-mono">
