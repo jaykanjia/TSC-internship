@@ -66,6 +66,13 @@ export default function Home() {
 			thumbnailUrl: "/thumbnails/day-9.webp",
 			date: "12/6/2023",
 		},
+		{
+			title: "task-10",
+			linkName: "Light Mode Dark Mode",
+			link: "/light-dark-mode",
+			thumbnailUrl: "/thumbnails/day-9.webp",
+			date: "5/8/2023",
+		},
 	];
 	return (
 		<main className="min-h-screen bg-[rgb(14,19,34)] font-mono">

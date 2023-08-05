@@ -1,0 +1,9 @@
+.wrapper {
+	@apply relative grid place-items-center min-h-screen p-8 sm:p-20;
+	& .code {
+		@apply bg-opacity-20;
+	}
+}
+.header {
+	@apply absolute top-0 left-0 w-full px-10 py-4 flex justify-end items-center;
+}
